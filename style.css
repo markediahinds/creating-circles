@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    width: 85%;
+    height: 55%;
+    border: 5px solid black;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(197, 69, 22);
+    cursor: pointer;
+    position: absolute;
+    bottom: 160px;
+}
+
+button:hover { 
+    box-shadow: #0b0700 3px 3px 0 0;
+    transform: translate(2px, 2px);
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    background-color: lavender;
+    border-radius: 50%;
+}
